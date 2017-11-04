@@ -5,5 +5,5 @@
 * [Python](python.md)
 * [U-boot](u-boot.md)
 * [Markdown](markdown.md)
-* Shell
+* [Shell](shell.md)
 
