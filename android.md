@@ -30,3 +30,15 @@ PRODUCT_COPY_FILES += \
 ```
 java -jar out/host/linux-x86/framework/signapk.jar build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8 待签名.apk 签名后.apk
 ```
+
+### 左右声道
+
+```
+--- a/sound/soc/codecs/rk3026_codec.c
+++ b/sound/soc/codecs/rk3026_codec.c
+-1433,7 +1433,7 static int rk3026_set_dai_fmt(struct snd_soc_dai *codec_dai,
+snd_soc_update_bits(codec, RK3026_ADC_INT_CTL2,RK3026_ABCLK_POL_MASK | RK3026_I2S_MODE_MASK, adc_aif2);
+snd_soc_update_bits(codec, RK3026_DAC_INT_CTL1,- RK3026_DLRCK_POL_MASK | RK3026_DAC_DF_MASK, dac_aif1);
+RK3026_DLRCK_POL_MASK | RK3026_DAC_DF_MASK, dac_aif1 | RK3026_DLRCK_POL_EN);
+snd_soc_update_bits(codec, RK3026_DAC_INT_CTL2,RK3026_DBCLK_POL_MASK, dac_aif2);
+```
