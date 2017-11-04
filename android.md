@@ -41,4 +41,15 @@ snd_soc_update_bits(codec, RK3026_ADC_INT_CTL2,RK3026_ABCLK_POL_MASK | RK3026_I2
 snd_soc_update_bits(codec, RK3026_DAC_INT_CTL1,- RK3026_DLRCK_POL_MASK | RK3026_DAC_DF_MASK, dac_aif1);
 RK3026_DLRCK_POL_MASK | RK3026_DAC_DF_MASK, dac_aif1 | RK3026_DLRCK_POL_EN);
 snd_soc_update_bits(codec, RK3026_DAC_INT_CTL2,RK3026_DBCLK_POL_MASK, dac_aif2);
+```    
+    
+### 关闭setting中screenshot 项
 ```
+//if(!SystemProperties.get("ro.build.characteristics","null").equals("tablet")) {
+       setTileEnabled(new ComponentName(packageName,
+                   Settings.ScreenshotSettingsActivity.class.getName()),
+                   false, isAdmin, pm);
+//  }
+ ```
+
+
