@@ -6,4 +6,5 @@
 * [U-boot](u-boot.md)
 * [Markdown](markdown.md)
 * [Shell](shell.md)
+* [Git](git.md)
 
