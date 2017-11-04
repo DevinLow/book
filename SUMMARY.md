@@ -3,4 +3,7 @@
 * [Introduction](README.md)
 * [Android](android.md)
 * [Python](python.md)
+* [U-boot](u-boot.md)
+* Markdown
+* Shell
 
