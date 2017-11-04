@@ -80,4 +80,7 @@ index 6db8461..de53dbe 100755
 
 ---
 ### allwinner 方案
-
+    
+```
+pack4dist -v,要求输入4次1  全志加密固件
+```
