@@ -26,5 +26,7 @@ PRODUCT_COPY_FILES += \
     
  device/softwinner/tulip-p3/media/shutdownanimation.zip:system/media/shutdownanimation.zip 
 ```
-
+### apk 签名
+```
 java -jar out/host/linux-x86/framework/signapk.jar build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8 待签名.apk 签名后.apk
+```
