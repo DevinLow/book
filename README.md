@@ -4,7 +4,8 @@
 - [U-boot](/u-boot.md)
 - [CSDN](http://blog.csdn.net/a193314 "CSDN")
 - [Markdown](/markdown.md)
-- [Shell ](/shell.md)
+- [Shell ](/shell.md)   
+- [Git](/git.md)
 
 
 
