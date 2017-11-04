@@ -1,3 +1,4 @@
+# **u-boot笔记**
 ### 功能需求：通过usb stroage 实现固件升级
 ### 解决思路：利用u-boot的USB CMD和 FAT CMD 实现写入动作
 ---
