@@ -52,4 +52,30 @@ snd_soc_update_bits(codec, RK3026_DAC_INT_CTL2,RK3026_DBCLK_POL_MASK, dac_aif2);
 //  }
  ```
 
+### 关机LOGO  播放LOOP(1)问题
+
+```
+diff --git a/services/core/java/com/android/server/power/ShutdownThread.java b/services/core/java/com/android/server/power/ShutdownThread.java
+index 6db8461..de53dbe 100755
+--- a/services/core/java/com/android/server/power/ShutdownThread.java
++++ b/services/core/java/com/android/server/power/ShutdownThread.java
+@ -797,9 +797,15 @ public final class ShutdownThread extends Thread {
+
+//Wait until the animation loop finished
+     private static void wait_shutdownanim_end() {
++        int count = 0;
+         while(!SystemProperties.get(LOOP_COMPLETED_PROP_NAME, "false").equals("true")) {
+             try {
+                 Thread.sleep(200);
++                count++;
++                if(count > 10){
++                    Log.e(TAG, "add by huangkaihui");
++                    SystemProperties.set("service.bootanim.exit", "1");
+		     break;
++                }
+             } catch (Exception e) {
+             }
+         }
+``` 
+
 
