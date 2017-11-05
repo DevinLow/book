@@ -52,8 +52,16 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 ```
 //待添加
 ```
+#### 3，使用usb info可列出板上USB HOST接口的属性
 
+```
+//待添加
+```
+#### 4,使用usb storage可列出U盘设备信息，使用usb tree列出Device Tree
 
+```
+//待添加
+```
 
 
 
