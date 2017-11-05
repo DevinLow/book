@@ -103,10 +103,12 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 //待添加
 ```
 ### 4,fatload：load binary file from a dos filesystem
+```
 用法：<interface> <dev[:part]>  <addr> <filename> [bytes]
-从U盘中读取文件到指定内存地址，比如我U盘上有一个名为uboot.bin的文件，读到0x30000000的地址处
-执行：fatload usb 0 0x30000000 uboot.bin
-读完后就可以用nand write命令将30000000处理的数据写到bios分区中，这就实现了用U盘烧写系统功能
+```
+#### 从U盘中读取文件到指定内存地址，比如我U盘上有一个名为uboot.bin的文件，读到0x30000000的地址处
+#### 执行：fatload usb 0 0x30000000 uboot.bin
+#### 读完后就可以用nand write命令将30000000处理的数据写到bios分区中，这就实现了用U盘烧写系统功能
 
 
 
