@@ -129,8 +129,15 @@ mmc setdsr <value> - set DSR register value
 ```
 //待添加
 ```
-
-
+#### 3,mmc write addr blk# cnt  将内存的地址为addr内容写到存储设备中，其中起始地址是blk，大小为cnt （单位都为块）
+#### 4,mmc    write 0x1080000  1de000     10000  将内存1080000开始的内容，写到emmc的1de000开始大小为10000
+#### SD卡更新uboot>bin示例：
+```
+mmc dev 0
+mmcinfo
+fatload mmc 0 0x1080000 uboot.bin（SD卡首目录下文件）
+mmc write 1080000 0 2000
+```
 
 
 
