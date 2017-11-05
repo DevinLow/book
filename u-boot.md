@@ -73,7 +73,7 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 ```
 //待添加
 ```
-
+### 操作U盘中的文件需要借助FAT文件系统，所有存储设备都可以用FAT文件系统统一操作
 
 
 
