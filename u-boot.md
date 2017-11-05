@@ -94,7 +94,11 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 ```
 //待添加
 ```
-
+### 3,fatinfo： print information about filesystem
+```
+用法：<interface> <dev[:part]>
+```
+执行：fatinfo usb 0
 
 
 
