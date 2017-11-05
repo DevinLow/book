@@ -40,7 +40,12 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
  CONFIG_SUPPORT_VFAT
 
 ---    
-### 5,
+### 具体操作：
+#### 1，在uboot中执行help usb查看支持的命令
+
+```
+
+```
 
 
 
