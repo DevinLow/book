@@ -44,7 +44,7 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 #### 1，在uboot中执行help usb查看支持的命令
 
 ```
-
+//待添加
 ```
 
 
