@@ -82,12 +82,14 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 ```
 
 #### 2，fatls: list files in a directory(default /)
-#### 用法：<interface> <dev[:part]> [directory]
+
+``` 
+用法：<interface> <dev[:part]> [directory]
 #### interface就是指哪种类型的设备，我们用的是usb，dev就是设备号，我们的设备号是0，默认的directory是根目录
 #### 执行：fatls usb 0
 #### 列出U盘上的文件系统目录结构：
 
-```
+
 //待添加
 ```
 
