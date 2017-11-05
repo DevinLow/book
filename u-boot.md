@@ -62,7 +62,12 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 ```
 //待添加
 ```
-#### 5，
+#### 5，使用usb part列出U盘设备的分区信息
+
+```
+//待添加
+```
+
 
 
 
