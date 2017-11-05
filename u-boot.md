@@ -68,7 +68,11 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 //待添加
 ```
 
+#### 6，使用完U盘后，要使用usb stop停止设备
 
+```
+//待添加
+```
 
 
 
