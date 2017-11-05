@@ -47,6 +47,8 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 //待添加
 ```
 
+#### 2，插入U盘，先执行usb start命令，或使用usb reset也是一样的动作，接着使用usb dev可以查看检测到的USB设备
+
 
 
 
