@@ -110,7 +110,33 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 #### 执行：fatload usb 0 0x30000000 uboot.bin
 #### 读完后就可以用mmc write命令将30000000处理的数据写到bios分区中，这就实现了用U盘烧写系统功能
 
+### 我们的系统的存储介质是MMC，最终将文件写入待EMMC需要用到MMC 命令
 
+#### 1，首先在uboot下执行mmc，可得：
+```
+           mmc info - display info of the current MMC device  
+           mmc read addr blk# cnt
+           mmc write addr blk# cnt
+           mmc erase blk# cnt
+           mmc rescan
+           mmc part - lists available partition on current mmc device
+           mmc dev [dev] [part] - show or set current mmc device [partition]
+           mmc list - lists available devices
+           mmc setdsr <value> - set DSR register value
+```
+           （1）mmc info - display info of the current MMC device   显示存储设备的信息
+           在切换到emmc设备下（执行mmc dev 1），执行mmcinfo可看到存储设备各属性信息：
+            gxtvbb_skt_v1#mmcinfo
+            Device: SDIO Port C
+            Manufacturer ID: 11
+            OEM: 100
+            Name: 008G7 
+            Tran Speed: 52000000
+            Rd Block Len: 512
+            MMC version 5.0
+            High Capacity: Yes
+            Capacity: 7.3 GiB
+            Bus Width: 8-bit DDR
 
 
 
