@@ -62,7 +62,7 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 ```
 //待添加
 ```
-
+#### 5，
 
 
 
