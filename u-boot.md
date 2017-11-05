@@ -135,7 +135,7 @@ mmc setdsr <value> - set DSR register value
 ```
 mmc dev 0
 mmcinfo
-fatload mmc 0 0x1080000 uboot.bin（SD卡首目录下文件）
+fatload usb 0 0x1080000 uboot.bin //（SD卡首目录下文件）
 mmc write 1080000 0 2000
 ```
 
