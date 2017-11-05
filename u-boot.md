@@ -114,15 +114,15 @@ CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport
 
 #### 1，首先在uboot下执行mmc，可得：
 ```
-           mmc info - display info of the current MMC device  
-           mmc read addr blk# cnt
-           mmc write addr blk# cnt
-           mmc erase blk# cnt
-           mmc rescan
-           mmc part - lists available partition on current mmc device
-           mmc dev [dev] [part] - show or set current mmc device [partition]
-           mmc list - lists available devices
-           mmc setdsr <value> - set DSR register value
+mmc info - display info of the current MMC device  
+mmc read addr blk# cnt
+mmc write addr blk# cnt
+mmc erase blk# cnt
+mmc rescan
+mmc part - lists available partition on current mmc device
+mmc dev [dev] [part] - show or set current mmc device [partition]
+mmc list - lists available devices
+mmc setdsr <value> - set DSR register value
 ```
            （1）mmc info - display info of the current MMC device   显示存储设备的信息
            在切换到emmc设备下（执行mmc dev 1），执行mmcinfo可看到存储设备各属性信息：
