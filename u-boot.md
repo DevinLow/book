@@ -33,7 +33,8 @@ CONFIG_CMD_USB=y &emsp;&emsp;&emsp; //enable USB CMD soupport
 CONFIG_USB_STORAGE=y &emsp;&emsp;&emsp;//enable USB storage soupport   
 完成这些，我们基本已经打开相关支持，此时我们需要编译代码，先在u-boot 命令行模拟一下升级过程。
 
->CONFIG_USB_OHCI
+>有可能用到的
+ CONFIG_USB_OHCI
  CONFIG_CMD_FAT
  CONFIG_DOS_PARTITION
  CONFIG_SUPPORT_VFAT
