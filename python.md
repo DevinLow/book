@@ -278,3 +278,76 @@ while(i < 100):
 print "Good bye!"
 ```
 ---
+### 获取mjpeg 的帧数及每帧的大小
+```
+#!/usr/bin/python
+
+import argparse
+import binascii
+import sys
+
+TABLE_COLUMNS = 10
+
+def parse_jpeg(filename):
+        sizes_list = list()
+        offset=0
+        byte="--"
+
+        with open(filename, 'rb') as f:
+                while True:
+                        while byte != b'ff':
+                                read_data = f.read(1)
+                                if (not read_data):
+                                        break;
+                                byte = binascii.hexlify(read_data)
+
+                        read_data = f.read(1)
+                        if (not read_data):
+                                break;
+                        byte = binascii.hexlify(read_data)
+                        if( byte == b'd9'):
+                                size = f.tell() - offset
+                                offset = f.tell()
+                                sizes_list.append(size)
+        return sizes_list
+
+
+def generate_table(sizes_list):
+        print ("#define NUM_JPEGS {}".format(len(sizes_list)))
+        print ("#define JPEG_MAX_SIZE {}\n".format(max(sizes_list)))
+
+                else:
+                        print("\t" + ", ".join(map(str, sizes_list[i:i+TABLE_COLUMNS])))
+
+        print ("};")
+
+
+def split_jpeg(filename, sizes_list):
+        print ("Splitting M-JPEG files (creates 'jpeg_split_*.jpg' files)")
+        with open(filename, 'rb') as mjpeg_f:
+                for i in range(len(sizes_list)):
+                        jpeg_filename = "jpeg_split_{:04d}.jpg".format(i)
+                        with open(jpeg_filename, 'wb') as jpeg_f:
+                                #print(jpeg_filename)
+                                data=mjpeg_f.read(sizes_list[i])
+                                jpeg_f.write(data)
+
+
+def main():
+        parser = argparse.ArgumentParser()
+        args = parser.parse_args()
+
+        sizes = list()
+
+        sizes = parse_jpeg(args.input)
+        generate_table(sizes)
+
+        if(args.split):
+                split_jpeg(args.input, sizes)
+
+
+
+if __name__ == "__main__":
+        ret = main()
+        exit(ret)
+```
