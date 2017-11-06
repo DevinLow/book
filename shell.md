@@ -24,6 +24,5 @@ done
 ### 开机动画制作 jpeg ->mjpeg
 ```
 #!/bin/bash
-for (( i=0; i<=39; i+=1 )) do printf "%04d.jpg\n" $i; done | xargs -I {} cat {} > smart_driving_1280_480_concat.
-mjpeg
+for (( i=0; i<=39; i+=1 )) do printf "%04d.jpg\n" $i; done | xargs -I {} cat {} >smart_driving_1280_480_concat.mjpeg
 ```
