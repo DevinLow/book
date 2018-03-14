@@ -120,6 +120,7 @@ Item {
   
 }  
 ```
+
 ```
 flat style button
 import QtQuick 2.8
@@ -194,6 +195,7 @@ T.Button {
     }
 }
 ```
+
 ```
 cover flow
 
@@ -284,6 +286,7 @@ Rectangle {
 
 }
 ```
+
 ```
 倒影
 import QtQuick 2.0
