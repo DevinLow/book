@@ -8,5 +8,5 @@
 * [Shell](shell.md)
 * [Git](git.md)
 * [QT](qt.md)
-* C++
+* [C++](c++.md)
 
