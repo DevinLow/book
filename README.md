@@ -6,6 +6,7 @@
 - [Markdown](/markdown.md)
 - [Shell ](/shell.md)   
 - [Git](/git.md)
+- [C++](/C++)
 
 
 
