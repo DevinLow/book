@@ -17,3 +17,8 @@ $ git config --global user.email "email@example.com"
 $ git init
 Initialized empty Git repository in /Users/michael/learngit/.git/
 ```
+
+###clone 代码
+```
+
+```
