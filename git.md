@@ -18,7 +18,7 @@ $ git init
 Initialized empty Git repository in /Users/michael/learngit/.git/
 ```
 
-###clone 代码
+### clone 代码
 ```
 git clone git@192.168.1.203:/home/git/yeedonapp/xxx.git
 ```
