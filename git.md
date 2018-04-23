@@ -22,3 +22,14 @@ Initialized empty Git repository in /Users/michael/learngit/.git/
 ```
 git clone git@192.168.1.203:/home/git/yeedonapp/xxx.git
 ```
+
+### 创建本地分支
+```
+git checkout -b  分支名
+```
+
+### 同步服务器代码
+```
+git pull
+```
+### 
