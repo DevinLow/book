@@ -45,3 +45,7 @@ git push origin 分支名
 git checkout -b master
 git merge 分支名
 ```
+###服务器新建git 工程
+```
+sudo git init --bare sample.git
+```
