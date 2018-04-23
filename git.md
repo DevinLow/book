@@ -32,4 +32,7 @@ git checkout -b  分支名
 ```
 git pull
 ```
-### 
+### 上传代码
+```
+git push origin master
+```
