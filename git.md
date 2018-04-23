@@ -48,4 +48,5 @@ git merge 分支名
 ###服务器新建git 工程
 ```
 sudo git init --bare sample.git
+sudo chown -R git:git sample.git
 ```
