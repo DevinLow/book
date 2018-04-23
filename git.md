@@ -38,5 +38,5 @@ git push origin master
 ```
 ### 上传本地分支到远程
 ```
-
+git push origin 分支名
 ```
