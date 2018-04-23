@@ -41,3 +41,7 @@ git push origin master
 git push origin 分支名
 ```
 ### 合并分支
+```
+git checkout -b master
+git merge 分支名
+```
