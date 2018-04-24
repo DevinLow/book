@@ -8,6 +8,7 @@
 - [Git](/git.md)
 - [QT](/qt.md)
 - [C++](/C++)
+- [Note](note)
 
 
 
