@@ -9,4 +9,5 @@
 * [Git](git.md)
 * [QT](qt.md)
 * [C++](c++.md)
+* [image processing](image-processing.md)
 
