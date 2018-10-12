@@ -111,6 +111,12 @@ drwxrwxr-x 3 liugang liugang 4096  99 18:55 old
 ### 跟踪远程分支
 ```
 git branch --set-upstream-to=origin/<branch>
+git checkout --track origin/<branch>
+```
+### 拉取远程分支并创建本地分支
+```
+git checkout -b 本地分支名x origin/远程分支名x
+git fetch origin 远程分支名x:本地分支名x
 ```
 ### push 代码到远程分支
 ```
