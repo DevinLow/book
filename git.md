@@ -115,8 +115,8 @@ git checkout --track origin/<branch>
 ```
 ### 拉取远程分支并创建本地分支
 ```
-git checkout -b 本地分支名x origin/远程分支名x
-git fetch origin 远程分支名x:本地分支名x
+git checkout -b <local branch> origin/<remote branch>
+git fetch origin <remote branch>:<local branch>
 ```
 ### push 代码到远程分支
 ```
