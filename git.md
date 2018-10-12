@@ -27,7 +27,15 @@ git clone git@192.168.1.203:/home/git/yeedonapp/xxx.git
 ```
 git checkout -b  分支名
 ```
-
+### 将本地仓库与远程关联
+```
+touch xxx
+git init
+git add xxx
+git commit -m "xxxx"
+git remote add origin https://github.com/tugenhua0707/testgit 关联一个远程库
+git push -u origin master
+```
 ### 同步服务器代码
 ```
 git pull
