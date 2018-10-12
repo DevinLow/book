@@ -106,3 +106,9 @@ ls: 初始化月份字符串出错
 drwxrwxr-x 3 liugang liugang 4096  99 18:55 new
 drwxrwxr-x 3 liugang liugang 4096  99 18:55 old
 >-rw-rw-r-- 1 liugang liugang 1031  99 18:55 update.path
+
+---
+### 跟踪远程分支
+```
+git branch --set-upstream-to=origin/<branch>
+```
