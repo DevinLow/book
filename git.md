@@ -112,6 +112,7 @@ drwxrwxr-x 3 liugang liugang 4096  99 18:55 old
 ```
 git branch --set-upstream-to=origin/<branch>
 git checkout --track origin/<branch>
+git branch -u origin/master
 ```
 ### 拉取远程分支并创建本地分支
 ```
