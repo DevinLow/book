@@ -114,5 +114,5 @@ git branch --set-upstream-to=origin/<branch>
 ```
 ### push 代码到远程分支
 ```
-
+git push origin <local branch>:<remote branch>
 ```
