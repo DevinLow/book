@@ -17,4 +17,5 @@
 * bluetooth\_ioctrl
 * bootlogo
 * chang-yong-ming-ling
+* conjpgtobmp
 
