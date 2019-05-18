@@ -26,4 +26,5 @@
 * newled
 * odex
 * powerkey
+* qn8027
 
