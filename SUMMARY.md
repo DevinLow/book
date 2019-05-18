@@ -30,4 +30,5 @@
 * quicksetting
 * screenshot
 * screensetting
+* setptiv
 
