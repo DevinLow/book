@@ -12,7 +12,6 @@
 - [默认指定Launcher 程序实现](/android-xi-tong-gong-neng-shi-xian.md)  
 - [常用调试命令](/chang-yong-ming-ling.md)  
 - [增加pwm2 DTS配置](/kernel.md)  
-- [增加pwm2 DTS配置](/kernel.md)  
 - [Ubuntu系统常用命令](/ubuntuchang-yong-gong-ju-ming-ling.md)  
 - [Settings修改](/settings.md)  
 - [RK方案笔记](/rk.md)  
