@@ -20,4 +20,7 @@
 * conjpgtobmp
 * ep126
 * gms
+* kernel
+* landspace
+* ncs8801
 
