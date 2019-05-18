@@ -14,4 +14,5 @@
 * [android-xi-tong-gong-neng-shi-xian](android-xi-tong-gong-neng-shi-xian.md)
 * bat
 * backlight\_open\_close
+* bluetooth\_ioctrl
 
