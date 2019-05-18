@@ -16,4 +16,5 @@
 * backlight\_open\_close
 * bluetooth\_ioctrl
 * bootlogo
+* chang-yong-ming-ling
 
