@@ -24,4 +24,5 @@
 * landspace
 * ncs8801
 * newled
+* odex
 
