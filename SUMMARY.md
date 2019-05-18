@@ -31,4 +31,5 @@
 * screenshot
 * screensetting
 * setptiv
+* settings
 
