@@ -28,4 +28,5 @@
 * powerkey
 * qn8027
 * quicksetting
+* screenshot
 
