@@ -27,4 +27,5 @@
 * odex
 * powerkey
 * qn8027
+* quicksetting
 
