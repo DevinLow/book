@@ -36,8 +36,6 @@
 - [在srettings->display中增加开关，控制截屏按钮显示隐藏](./screensetting.md) 
 - [客户只需要部分gms程序，gms裁剪](./gms.md)   
 - [背光与VCC不能正常关闭bug处理](./backlight_open_close.md)  
-
-
    
     
 I get 10 times more traffic from [Google](http://google.com/ "Google") than from [Yahoo](http://search.yahoo.com/ "Yahoo Search") or [MSN](http://search.msn.com/ "MSN Search"). 
