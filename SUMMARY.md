@@ -32,4 +32,5 @@
 * screensetting
 * setptiv
 * settings
+* sl7729
 
