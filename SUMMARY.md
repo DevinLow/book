@@ -29,4 +29,5 @@
 * qn8027
 * quicksetting
 * screenshot
+* screensetting
 
