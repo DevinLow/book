@@ -1,3 +1,4 @@
+### 隐藏systemUI 电量图标
 ### frameworks/base/packages/SystemUI/src/com/android/systemui/BatteryMeterView.java
 ```java
     @Override
@@ -9,3 +10,4 @@
         }
     }
 ```
+

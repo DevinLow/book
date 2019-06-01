@@ -12,7 +12,7 @@
 * [image processing](image-processing.md)
 * [Systemd ](systemd.md)
 * [android-xi-tong-gong-neng-shi-xian](android-xi-tong-gong-neng-shi-xian.md)
-* bat
+* [bat](bat.md)
 * backlight\_open\_close
 * bluetooth\_ioctrl
 * bootlogo
@@ -28,7 +28,7 @@
 * powerkey
 * qn8027
 * quicksetting
-* screenshot
+* [screenshot](screenshot.md)
 * screensetting
 * setptiv
 * settings
