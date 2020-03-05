@@ -25,7 +25,7 @@ adb root
 adb remount
 ```
 
-core dump 文件生成与使用方式
+#### 4,core dump 文件生成与使用方式
 ```c++
 #include "CoredumpHelper.h"
 
@@ -53,7 +53,7 @@ CoredumpHelper::CoredumpHelper() {
 ```shell
 gdb program corefile-program-143-2056
 ```
-## click Enter key -> key input "where" -> click Enter key
+##### click Enter key -> key input "where" -> click Enter key
 
 
 
