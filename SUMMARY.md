@@ -32,7 +32,7 @@
 * [screensetting](screensetting.md)
 * [setptiv](setptiv.md)
 * [settings](settings.md)
-* sl7729
+* [ sl7729](sl7729.md)
 * [swith](swith.md)
 * [ubuntuchang-yong-gong-ju-ming-ling](ubuntuchang-yong-gong-ju-ming-ling.md)
 * [volume](volume.md)
